@@ -1,0 +1,9 @@
+custom-slider:
+  version: 1.x
+  css:
+    theme:
+      css/custom-slider.css: {}
+  js:
+    js/custom-slider.js: {}
+  dependencies:
+    - core/jquery

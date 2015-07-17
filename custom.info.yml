@@ -1,0 +1,19 @@
+name: Customtheme
+type: theme
+description: 'That theme'
+package: Custom
+core: 8.x
+screenshot: that.png
+
+libraries:
+  - customtheme/global-styling
+  
+stylesheets-remove:
+  - '@classy/css/layout.css'
+  - core/assets/vendor/normalize-css/normalize.css
+  
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
